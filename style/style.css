@@ -239,7 +239,7 @@ header{
     position: relative;
     border-radius: 5px;
     box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
-    background: linear-gradient(90deg, rgba(192, 5, 180, 0.694) 0%, rgba(0, 213, 255, 0.842) 100%);
+   
 
   }
   .slider {
@@ -375,3 +375,46 @@ textarea:focus, input:focus{
     flex-wrap: wrap;
     
 }
+
+/* ============ FIM IMC  */
+
+/* ===========START LAMPADA CONFIG */
+
+.section-lampada{
+    display: flex;
+    flex-direction: column;
+
+}
+#turnOn , #turnOff{
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 0.9em;
+    border: none;
+    box-shadow: 1px 1px 1px 2px rgba(0, 0, 0, 0.123);
+    margin: 5px;
+}
+
+#turnOn{
+    background-color: rgba(32, 210, 32, 0.589);
+    color: white;
+}
+
+#turnOff{
+    background-color: rgba(215, 38, 38, 0.637);
+    color: white;
+}
+
+#turnOn:hover{
+    background-color: green;
+}
+
+#turnOff:hover{
+    background-color: red;
+  
+}
+
+
+
+
