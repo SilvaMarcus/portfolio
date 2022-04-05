@@ -1,0 +1,98 @@
+body, html{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+}
+
+.inp{
+    display: flex;
+    flex-direction: column;
+
+}
+
+div label {
+    display: inline-block;
+    width: 50px;
+    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.479);
+    Font-size: 1.1em;
+}
+
+label {
+    font-size: 1.1em;
+    font-weight: 500;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+    font-size: 2.1em;
+    color: rgb(250, 214, 255);
+    letter-spacing: 5px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:400;
+
+}
+input{
+    height: 25px;
+    border-radius: 12px;
+    width: 170px;
+    margin: auto;
+    border: none;
+    margin-bottom: 20px;
+}
+
+.card{
+    background-color: rgba(87, 234, 244, 0.39);
+    height: 430px;
+    width: 300px;
+   /*  box-shadow: 1px 1px 5px 4px rgba(0, 0, 0, 0.425); */
+    border-radius: 30px;
+    color: white;
+    text-shadow: 3px 1px 4px  rgba(0, 0, 0, 0.589);
+    border: 5px solid rgb(12, 172, 235);
+
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#resultado{
+    background-color: rgba(25, 13, 153, 0.253);
+    width: 230px;
+    height: 120px;
+    margin: auto;
+    margin-top: 15px;
+    border-radius: 10px;
+    padding: 5px;
+    text-align: justify;
+    font-weight: bolder;
+    font-size: 17px;
+}
+
+button{
+    width: 150px;
+    height: 30px;
+    background-color: rgba(108, 142, 235, 0.308);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.199);
+    color: white;
+    font-weight: bolder;
+    font-size: 1em;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.425) ;
+    letter-spacing: 1.3px;
+    
+}
+
+#calcular:hover{
+    background-color: rgb(8, 216, 216);
+}
+
