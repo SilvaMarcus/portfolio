@@ -9,3 +9,7 @@ turnOn.addEventListener('click', function(){
 turnOff.addEventListener('click', function(){
     lamp.src = './imagens/desligada.jpg'
 })
+
+lamp.addEventListener('click', function(){
+    lamp.src = './imagens/quebrada.jpg'
+})
