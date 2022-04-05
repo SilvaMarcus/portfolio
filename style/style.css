@@ -415,6 +415,13 @@ textarea:focus, input:focus{
   
 }
 
+.botao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
 
 
 
