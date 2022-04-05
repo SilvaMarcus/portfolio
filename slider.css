@@ -1,0 +1,72 @@
+
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
+
+
+body {
+    background: #eee;
+  }
+  .container {
+    width: 80%;
+    margin:4rem auto;
+  }
+  .carousel {
+    border: 2px solid #416be4;
+    height: 30rem;
+    overflow: hidden;
+    position: relative;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.2), 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+  .slider {
+    display: flex;
+    height: 100%;
+    width: 400%;
+  }
+  .slider section {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 20px;
+  }
+  .left, .right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+  }
+  .arrow i {
+    font-size: 70px;
+
+    color: #416be4;
+  }
+  .left {
+    left: 10px;
+  }
+  .right {
+    right: 10px;
+  }
+  .control ul {
+    list-style: none;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    margin: 0;
+    padding: 0;
+    transform: translate(-50%);
+  }
+  .control ul li {
+    width: 10px;
+    height: 10px;
+    background: #333;
+    border: 2px solid #333;
+    border-radius: 50px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  .control ul li.selected {
+    background: transparent;
+  }
+  
