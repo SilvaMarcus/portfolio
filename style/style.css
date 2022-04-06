@@ -436,9 +436,11 @@ textarea:focus, input:focus{
 /* ========== START CALCULADORA  */
 
 .calculator-wrap {
-    width: 42%;
+    display: flex;
+    justify-content: center;
+    width: 280px;
     background-color: #b1ff21c3;
-    padding: 12px;
+    padding: 17px;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
 }
