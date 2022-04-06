@@ -438,9 +438,9 @@ textarea:focus, input:focus{
 .calculator-wrap {
     display: flex;
     justify-content: center;
-    width: 280px;
+    width: 14.5rem;
     background-color: #b1ff21c3;
-    padding: 17px;
+    padding: 2rem;
     border-radius: 5px;
     box-shadow: 0 0 15px black;
 }
@@ -449,7 +449,7 @@ textarea:focus, input:focus{
     display: flex;
     justify-content: flex-end;
     width: 100%;
-    height: 70px;
+    height: 60px;
     margin-bottom: 12px;
     padding: 4px;
     background-color: black;
@@ -465,12 +465,18 @@ textarea:focus, input:focus{
     grid-gap: 5px;
 }
 
+.calculator-buttons button {
+    width: 3rem;
+}
+
 .calculator button{
+    width: 3.1rem;
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 8px;
     border-radius: 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
+    text-align: center;
     outline: none;
     cursor: pointer;
     border: 2px solid black;
@@ -480,3 +486,11 @@ button:hover{
     background-color: #b1ff21c3;
     color: black;
 }
+
+ .output > .previous-operand {
+    color: rgba(255, 255, 255, 0.75);
+    font-size: 1.1rem;
+    position: relative, fixed;
+    right: 6rem;
+  } 
+
