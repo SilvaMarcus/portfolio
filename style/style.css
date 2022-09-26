@@ -494,3 +494,98 @@ button:hover{
     right: 6rem;
   } 
 
+
+.qrcode-section{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+#titulo-qr{
+    font-size: 1.2em;
+    font-weight: bolder;
+    margin-bottom: 15px;
+    color: rgb(139, 0, 177);
+  
+}
+
+.container-form-qr{
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    width: 310px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    border: 2px rgb(200, 0, 255) solid; 
+    box-shadow: rgba(0, 0, 0, 0.223) 5px 2px 15px 1px;;
+
+}
+
+.input-container-qr{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;   
+}
+
+.input-qr{
+    width: 200px;
+    height: 38px;
+    border-radius: 10px;
+    border: solid 0.2em rgb(153, 75, 154);
+ 
+}
+
+.input-qr::placeholder {
+    color: rgba(93, 93, 93, 0.39);
+    font-weight: bold;
+    padding-left: 8px;
+
+  }
+
+.img-qrcode{
+    width: 165px;
+    height: 165px;
+    margin: 10px;
+    border: solid 2px rgb(200, 0, 255) ;
+}
+
+.botao-qr{
+    font-size: 0.9em;
+    background-color: rgba(255, 255, 255, 0.864);
+    box-shadow: 3px 3px 9px rgba(0, 0, 0, 0.28);
+    text-transform: uppercase;
+    width: 100%;
+    padding: 4px 4px;
+    font-weight: 500;
+    border-radius: 20px;
+    max-width: 100px;
+    margin-top:5px;
+    border-color: #8E2DE2;
+     
+    
+}
+
+
+
+
+
+
+
+ /* ========== START QRCODE  */
+
+
+.botao-qr:hover {
+    background-color: rgb(200, 0, 255);
+    color: rgb(255, 255, 255);
+}
+
+
+
+
