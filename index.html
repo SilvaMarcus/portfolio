@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style/style.css">
     <title>Marcus Portfólio</title>
     <link rel="shortcut icon" href="/imagens/m.png" type="image/x-icon">
+    
 </head>
 <body>
 
@@ -109,10 +110,40 @@
                         </div>
                     </div>
                 </section> 
+ <!--=CALCULADORA END -->
 
-                <section>Content for panel 3</section>
+
+
+<!--=QR CODE STARTS -->
+
+    <section class="qrcode-section">
+
+
+            <div class="container-form-qr" >  
+                    <h1 id="titulo-qr">Gerador QR Code Wifi</h1>
+                    <div class="input-container-qr">
+                            <input class="usuario input-qr" id="wifiNetworkname" type="text" placeholder="NOME DA REDE">
+                            <input class="senha input-qr" id="wifiPassword" type="password" placeholder="SENHA">
+                    </div> 
+
+                    <img id="QRcodeImage" class="img-qrcode">
+
+                    <button  class="botao botao-qr fa-solid fa-arrows-rotate"> </button>              
+                    
+                 
+        </main>
+
+                </section>
+                <!--=QR CODE END -->    
+
+
 
                 <section>Content for panel 4</section>
+
+
+
+
+
 
                     <section class="section-lampada"> <!-- ====== LAMPADA SECTION  -->
                         <div>
@@ -149,10 +180,13 @@
     
     </div> <!-- fim container -->
 
+    <script src="https://kit.fontawesome.com/1d90a45ab7.js" crossorigin="anonymous"></script>
 </body>
 <script src="script.js" defer></script> <!-- Pagina Principal -->
 <script src="slider.js"></script> <!-- Carrosel Sessao Slider de projetos -->
 <script src="imc.js"></script>  <!--  Projeto IMC -->
 <script src="lamp.js"></script> <!-- Projeto Lampada -->
 <script src="calculadora.js" ></script>
+<script src="qrcode.js"></script>
+
 </html>
