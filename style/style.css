@@ -495,6 +495,11 @@ button:hover{
   } 
 
 
+
+/* ========== START QRCODE  */
+
+
+
 .qrcode-section{
     display: flex;
     width: 100vw;
@@ -572,19 +577,47 @@ button:hover{
     
 }
 
-
-
-
-
-
-
- /* ========== START QRCODE  */
-
-
 .botao-qr:hover {
     background-color: rgb(200, 0, 255);
     color: rgb(255, 255, 255);
 }
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
